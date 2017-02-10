@@ -1,0 +1,116 @@
+
+
+body {
+    font-family: "Monaco", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+}
+
+a{
+  color: #2886ce;
+}
+
+
+img{
+	max-width: 25%;
+	margin : 5px;
+}
+
+
+.content
+{
+  float: bottom;
+}
+
+#imagebien
+{
+	max-width : 90%;
+	margin-bottom: 10px;
+}
+#estimation
+{
+	margin-top:50px ;
+	font-size : 17px;
+	margin-bottom:50px;
+}
+#prixe
+{
+	margin-top:150px;
+}
+
+#page
+{
+	margin-top : 10px;
+}
+
+
+
+
+.bnt {
+  color: #900;
+  background: #FF0;
+  font-weight: bold;
+  border: 1px solid #900;
+}
+ 
+.btn:hover {
+  color: #FFF;
+  
+}
+
+
+
+#custom-bootstrap-menu.navbar-default {
+  background-color: #91f7d4;
+  border-color: #045FB4;
+  height:50px;
+}
+#custom-bootstrap-menu.navbar-default .navbar-brand {
+  color: #ecf0f1;
+}
+#custom-bootstrap-menu.navbar-default .navbar-brand:hover,
+#custom-bootstrap-menu.navbar-default .navbar-brand:focus {
+  color: #ffbbbc;
+}
+#custom-bootstrap-menu.navbar-default .navbar-text {
+  color: #ecf0f1;
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav > li > a {
+  color: #ecf0f1;
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav > li > a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav > li > a:focus {
+  color: #ffbbbc;
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav > .active > a,
+#custom-bootstrap-menu.navbar-default .navbar-nav > .active > a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav > .active > a:focus {
+  color: #ffbbbc;
+  background-color: #c0392b;
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav > .open > a,
+#custom-bootstrap-menu.navbar-default .navbar-nav > .open > a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav > .open > a:focus {
+  color: #ffbbbc;
+  background-color: #c0392b;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle {
+  border-color: #c0392b;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
+  background-color: #c0392b;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ecf0f1;
+}
+#custom-bootstrap-menu.navbar-default .navbar-collapse,
+#custom-bootstrap-menu.navbar-default .navbar-form {
+  border-color: #ecf0f1;
+}
+#custom-bootstrap-menu.navbar-default .navbar-link {
+  color: #ecf0f1;
+}
+#custom-bootstrap-menu.navbar-default .navbar-link:hover {
+  color: #ffbbbc;
+}
+

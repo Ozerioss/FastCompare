@@ -1,17 +1,20 @@
 {
-  "name": "compare",
-  "version": "1.0.0",
-  "description": "Compare les biens",
-  "main": "index.js",
+  "name": "carrez",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "formidable": "^1.1.1",
-    "express":"latest",
-    "request":"latest",
-    "cheerio":"latest"
+    "body-parser": "latest",
+    "cookie-parser": "latest",
+    "debug": "latest",
+    "ejs": "^2.4.1",
+    "express": "~4.13.1",
+    "html-to-json": "^0.6.0",
+    "morgan": "~1.6.1",
+    "serve-favicon": "^2.3.2",
+    "swig": "^1.4.2",
+    "to-lower-case": "^1.0.1"
   }
 }

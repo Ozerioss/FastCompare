@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Comparateur</title>
+    <meta charset="UTF-8">
+	<link rel="stylesheet" href="/stylesheets/style.css" />
+	<link rel="stylesheet" href="/stylesheets/bootstrap.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+<body>
+<div id="container">
+	<header>
+		<nav id="custom-bootstrap-menu" class="navbar-default">				
+				<div class="container">	
+				<div class="navbar-header">
+					<img src="./stylesheets/logo.png"/>										
+				</div>			
+				</div>
+			</nav>		
+	</header>
+	<div class="content">
+ {% block content %}{% endblock %}
+ </div>
+</div>
+</body>
+</html>
